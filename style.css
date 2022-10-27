@@ -1,29 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
 head{
-     font-family: 'Poppins', sans-serif;
+    margin: none;
 }
-.h1,span{
-    color: #ffa500;
+.top{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    
+   
 }
-h1{
-    font-size: 50px;
+.half1>a{
+    margin-top: 5%;
 }
+
 .half1{
+    width: 40%;
     float: left;
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 3px;;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-left: 5%;
+    margin: 2%;
+    height: 350px;
+    border: 1px solid;
 }
-.half{
-    float: right;
-    width: 40%;
+.half1>h1{
+    font-size: 40px;
+    font: bold;
 }
-.half img {
+.half1 img{
     width: 100%;
+    
+    
 }
-.half1 p {
-    font-size: 20px;
-    color: #898282;
+a{
+    background-image: linear-gradient(30deg, lightsalmon,orange);
+    border-radius: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: WHITE;
+    
 }
-.second{
-    padding-top: 20px;;
+.middle{
+    height: 500px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    padding-bottom: 100px;
+}
+.last{
+    height: 500px;
+    
+}
+.full{
+ width: 40%;
+float: left;
+font-size: 18px;
+box-shadow: 10px 10px 15px gray;
+   padding-left: 5%;
+   margin: 20px;
+   height: 350px;
+   padding-right: 25px;
+   padding-bottom:60px ;
+   border-left: 7px solid #FF6347;
+}
+.stack{
+    width: 40%;
+    float: right;
+    padding-left: 15px;
+   padding-right: 3%;
+    font-size: 18px;
+    box-shadow: 10px 10px 15px gray;
+    margin: 20px;
+    height: 350px;
+    padding-bottom: 60px;
+    border-left: 7px solid #0000FF;
+}
+.Experience{
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-shadow: 10px 4px 4px gray;
+    color: #FFA500;
+    background-color: aliceblue;
+   
+}
+.full h2 {
+    font-size: 40px;
+}
+
+.stack h2{
+    font-size: 40px;
 }
